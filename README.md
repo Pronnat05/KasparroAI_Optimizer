@@ -38,7 +38,7 @@ Click the link below to watch the 3-minute technical walkthrough and live produc
 python -m venv .venv
 
 # Activate the environment on Windows PowerShell
-# (Includes bypass flag if your system blocks execution policies)
+```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .\.venv\Scripts\activate
 

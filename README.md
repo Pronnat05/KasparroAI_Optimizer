@@ -34,17 +34,22 @@ Click the link below to watch the 3-minute technical walkthrough and live produc
    git clone [https://github.com/Pronnat05/KasparroAI_Optimizer.git](https://github.com/Pronnat05/KasparroAI_Optimizer.git)
    cd KasparroAI_Optimizer
 
-## Configure the Virtual Environment: 
+# Create the isolated virtual environment
 python -m venv .venv
-# On Windows PowerShell:
+
+# Activate the environment on Windows PowerShell
+# (Includes bypass flag if your system blocks execution policies)
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .\.venv\Scripts\activate
-# Install dependencies
+
+# Upgrade pip and install core architectural packages
+python -m pip install --upgrade pip
 pip install streamlit google-generativeai python-dotenv requests
 
-## Create a .env file in the root directory and add your real tokens:
+#Create a .env file in the root directory and add your real tokens:
 SHOPIFY_ACCESS_TOKEN="your_shpua_token_here"
 SHOP_NAME="your-shopify-store-subdomain"
 GEMINI_API_KEY="your_gemini_api_key_here"
 
-## Launch the Platform:
+# Launch the Platform:
 python -m streamlit run app.py

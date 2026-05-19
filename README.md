@@ -7,7 +7,7 @@ An automated diagnostic and metadata optimization engine built for the 2026 Shop
 
 ## 📺 Project Demo Video
 Click the link below to watch the 3-minute technical walkthrough and live product execution demo:
-👉 **[Watch the Live Project Demo on Yputube](https://youtu.be/mO7wS28j3Ro)**
+👉 **[Watch the Live Project Demo on Youtube](https://youtu.be/mO7wS28j3Ro)**
 
 ---
 
